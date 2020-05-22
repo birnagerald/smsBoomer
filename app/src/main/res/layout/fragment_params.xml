@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/title_sms2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10sp"
+        android:layout_marginTop="20sp"
+        android:text="Message auto 1 :"
+        android:textColor="#673AB7"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/text_auto1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5sp"
+        android:layout_marginTop="5sp"
+        android:textColor="#272727"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/field_auto1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints="Salut, ça va ?"
+        android:ems="10"
+        android:hint="Salut, ça va ?"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/title_sms3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10sp"
+        android:layout_marginTop="20sp"
+        android:text="Message auto 2 :"
+        android:textColor="#673AB7"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/text_auto2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5sp"
+        android:layout_marginTop="5sp"
+        android:textColor="#272727"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/field_auto2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints="Je suis en réunion."
+        android:ems="10"
+        android:hint="Je suis en réunion."
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/title_sms4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10sp"
+        android:layout_marginTop="20sp"
+        android:text="Message auto 3 :"
+        android:textColor="#673AB7"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/text_auto3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5sp"
+        android:layout_marginTop="5sp"
+        android:textColor="#272727"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/field_auto3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints="Je te réponds plus tard."
+        android:ems="10"
+        android:hint="Je te réponds plus tard."
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/confirm_auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:text="Confirm" />
+
+</LinearLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title_sms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_marginTop="20sp"
+            android:layout_marginBottom="10sp"
+            android:text="Last SMS received :"
+            android:textColor="#673AB7"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/phone_no"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5sp"
+            android:paddingHorizontal="10sp" />
+
+        <TextView
+            android:id="@+id/last_sms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5sp"
+            android:paddingHorizontal="10sp"
+            android:paddingTop="5sp"
+            android:paddingBottom="20sp"
+            android:text="TextView"
+            android:textColor="#202020"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/bomb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:text="BOMB HIM" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="129dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/auto_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Auto 1" />
+
+            <Button
+                android:id="@+id/auto_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Auto 2" />
+
+            <Button
+                android:id="@+id/auto_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Auto 3" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
